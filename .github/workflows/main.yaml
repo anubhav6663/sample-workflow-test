@@ -1,0 +1,14 @@
+name: A workflow for my Hello World file
+on:
+  pull_request:
+    branches:
+    - master
+jobs:
+  build:
+    name: My first action test
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: actions/checkout@master
+    - uses: ./action-a
+      env:
+        MY_NAME: "Mugdha"
