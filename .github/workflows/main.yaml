@@ -11,4 +11,6 @@ jobs:
     - uses: actions/checkout@master
     - uses: ./action-a
       env:
-        MY_NAME: "Mugdha"
+        USER_NAME: "anubhav6663"
+        PASSWORD: "Te%4012291"
+        MY_NAME: "anubhav"
