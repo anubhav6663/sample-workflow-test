@@ -13,3 +13,4 @@ jobs:
       env:
         USER_NAME: "anubhav6663"
         PASSWORD: "Te%4012291"
+        MY_NAME: "anubhav"
